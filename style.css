@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.naslov {
+  width: 100%;
+  height: 23vw;
+  border: none;
+}
+.naslov button {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+}
+.meni {
+  border: none;
+  width: 100%;
+  height: 58vw;
+  background: none;
+}
+.meni > div {
+  border: none;
+  background: none;
+  width: 20%;
+  height: 25vw;
+  margin-left: 10%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  float: left;
+}
+.meni > div > button {
+  background: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+}
+.sadrzaj {
+  background: none;
+  background-color: #dad1cc;
+  display: none;
+  border: none;
+  width: 80%;
+  height: 58vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  background: none;
+  background-color: #dad1cc;
+  color: #514640;
+  padding: 3vw;
+}
+img {
+  float: left;
+  width: 30%;
+  margin: 1vw;
+}
+p {
+  color: #514640;
+  background: none;
+  background-color: #dad1cc;
+  text-align: center;
+  float: left;
+  width: 60%;
+  padding: 1vw;
+}
+.nazad {
+  background: none;
+  background-color: #514640;
+  border-radius: 10px;
+  color: aliceblue;
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.ponuda div {
+  background: none;
+  background-color: #dad1cc;
+  display: none;
+  border: none;
+  width: 80%;
+  height: 58vw;
+  margin-top: 23vw;
+  margin-left: auto;
+  margin-right: auto;
+}
